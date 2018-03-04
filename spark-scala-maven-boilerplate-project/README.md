@@ -17,7 +17,8 @@ Inside the ```/target``` folder you will find the result fat jar called ```spark
       --master yarn-cluster \
       spark-scala-maven-project-0.0.1-SNAPSHOT-jar-with-depencencies.jar \
       inputhdfspath \
-      outputpath
+      outputpath \
+      topNMost
 
 The format for file path: 
 

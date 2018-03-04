@@ -12,9 +12,9 @@ object MainExample {
 
     var logger = Logger.getLogger(this.getClass())
 
-    if (arg.length < 2) {
+    if (arg.length < 3) {
       logger.error("=> wrong parameters number")
-      System.err.println("Usage: MainExample <path-to-files> <output-path>")
+      System.err.println("Usage: MainExample <path-to-files> <output-path> topNMost")
       System.exit(1)
     }
 
@@ -25,6 +25,7 @@ object MainExample {
 
     val pathToFiles = arg(0)
     val outputPath = arg(1)
+    val topN  = arg(2).toInt
 
     logger.info("=> jobName \"" + jobName + "\"")
     logger.info("=> pathToFiles \"" + pathToFiles + "\"")
@@ -50,7 +51,7 @@ object MainExample {
     val uriHitCount = ListMap(uriCount.toSeq.sortWith(_._2 > _._2): _*)
 
     //print the top 20 most hit uris
-    uriHitCount.take(20).foreach(println)
+    uriHitCount.take(topN).foreach(println)
 
 
     //Writing results to file
