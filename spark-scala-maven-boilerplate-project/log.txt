@@ -1,0 +1,169 @@
+18/03/04 13:05:19 INFO spark.SparkContext: Running Spark version 2.1.1
+18/03/04 13:05:20 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/03/04 13:05:20 INFO spark.SecurityManager: Changing view acls to: vagrant
+18/03/04 13:05:20 INFO spark.SecurityManager: Changing modify acls to: vagrant
+18/03/04 13:05:20 INFO spark.SecurityManager: Changing view acls groups to: 
+18/03/04 13:05:20 INFO spark.SecurityManager: Changing modify acls groups to: 
+18/03/04 13:05:20 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(vagrant); groups with view permissions: Set(); users  with modify permissions: Set(vagrant); groups with modify permissions: Set()
+18/03/04 13:05:20 INFO util.Utils: Successfully started service 'sparkDriver' on port 38850.
+18/03/04 13:05:20 INFO spark.SparkEnv: Registering MapOutputTracker
+18/03/04 13:05:20 INFO spark.SparkEnv: Registering BlockManagerMaster
+18/03/04 13:05:20 INFO storage.BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+18/03/04 13:05:20 INFO storage.BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+18/03/04 13:05:20 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-6bbb912d-26f2-41ed-900d-67517c17a78d
+18/03/04 13:05:20 INFO memory.MemoryStore: MemoryStore started with capacity 366.3 MB
+18/03/04 13:05:21 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+18/03/04 13:05:21 INFO util.log: Logging initialized @1978ms
+18/03/04 13:05:21 INFO server.Server: jetty-9.2.z-SNAPSHOT
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@76a82f33{/jobs,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6bab2585{/jobs/json,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@74bdc168{/jobs/job,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@644c78d4{/jobs/job/json,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@532a02d9{/stages,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@611f8234{/stages/json,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7bb3a9fe{/stages/stage,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7cbee484{/stages/stage/json,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7f811d00{/stages/pool,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@62923ee6{/stages/pool/json,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4089713{/storage,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@f19c9d2{/storage/json,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7807ac2c{/storage/rdd,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@b91d8c4{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4b6166aa{/environment,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@a77614d{/environment/json,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4fd4cae3{/executors,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4a067c25{/executors/json,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@a1217f9{/executors/threadDump,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3bde62ff{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@523424b5{/static,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2baa8d82{/,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@319dead1{/api,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@791cbf87{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@a7e2d9d{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/03/04 13:05:21 INFO server.ServerConnector: Started Spark@6bffc033{HTTP/1.1}{0.0.0.0:4040}
+18/03/04 13:05:21 INFO server.Server: Started @2182ms
+18/03/04 13:05:21 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+18/03/04 13:05:21 INFO ui.SparkUI: Bound SparkUI to 0.0.0.0, and started at http://10.211.55.101:4040
+18/03/04 13:05:21 INFO spark.SparkContext: Added JAR file:///vagrant/Courses/spark-scala-maven-boilerplate-project/target/spark-scala-maven-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar at spark://10.211.55.101:38850/jars/spark-scala-maven-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar with timestamp 1520168721378
+18/03/04 13:05:21 INFO executor.Executor: Starting executor ID driver on host localhost
+18/03/04 13:05:21 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45474.
+18/03/04 13:05:21 INFO netty.NettyBlockTransferService: Server created on 10.211.55.101:45474
+18/03/04 13:05:21 INFO storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+18/03/04 13:05:21 INFO storage.BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.211.55.101, 45474, None)
+18/03/04 13:05:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.211.55.101:45474 with 366.3 MB RAM, BlockManagerId(driver, 10.211.55.101, 45474, None)
+18/03/04 13:05:21 INFO storage.BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.211.55.101, 45474, None)
+18/03/04 13:05:21 INFO storage.BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.211.55.101, 45474, None)
+18/03/04 13:05:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@60e9df3c{/metrics/json,null,AVAILABLE,@Spark}
+18/03/04 13:05:22 INFO scheduler.EventLoggingListener: Logging events to hdfs://node1/user/spark/applicationHistory/local-1520168721436
+18/03/04 13:05:22 INFO examples.MainExample$: => jobName "FrequentVisitors"
+18/03/04 13:05:22 INFO examples.MainExample$: => pathToFiles "file:///vagrant/Courses/NASA/text"
+18/03/04 13:05:23 INFO memory.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 242.2 KB, free 366.1 MB)
+18/03/04 13:05:23 INFO memory.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 23.3 KB, free 366.0 MB)
+18/03/04 13:05:23 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.211.55.101:45474 (size: 23.3 KB, free: 366.3 MB)
+18/03/04 13:05:23 INFO spark.SparkContext: Created broadcast 0 from textFile at MainExample.scala:33
+18/03/04 13:05:23 INFO mapred.FileInputFormat: Total input paths to process : 1
+18/03/04 13:05:23 INFO spark.SparkContext: Starting job: collect at MainExample.scala:46
+18/03/04 13:05:23 INFO scheduler.DAGScheduler: Registering RDD 8 (map at MainExample.scala:44)
+18/03/04 13:05:23 INFO scheduler.DAGScheduler: Got job 0 (collect at MainExample.scala:46) with 1 output partitions
+18/03/04 13:05:23 INFO scheduler.DAGScheduler: Final stage: ResultStage 1 (collect at MainExample.scala:46)
+18/03/04 13:05:23 INFO scheduler.DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+18/03/04 13:05:23 INFO scheduler.DAGScheduler: Missing parents: List(ShuffleMapStage 0)
+18/03/04 13:05:23 INFO scheduler.DAGScheduler: Submitting ShuffleMapStage 0 (MapPartitionsRDD[8] at map at MainExample.scala:44), which has no missing parents
+18/03/04 13:05:23 INFO memory.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 5.4 KB, free 366.0 MB)
+18/03/04 13:05:23 INFO memory.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 3.1 KB, free 366.0 MB)
+18/03/04 13:05:23 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.211.55.101:45474 (size: 3.1 KB, free: 366.3 MB)
+18/03/04 13:05:23 INFO spark.SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:996
+18/03/04 13:05:23 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[8] at map at MainExample.scala:44)
+18/03/04 13:05:23 INFO scheduler.TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+18/03/04 13:05:23 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 6077 bytes)
+18/03/04 13:05:23 INFO executor.Executor: Running task 0.0 in stage 0.0 (TID 0)
+18/03/04 13:05:23 INFO executor.Executor: Fetching spark://10.211.55.101:38850/jars/spark-scala-maven-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar with timestamp 1520168721378
+18/03/04 13:05:23 INFO client.TransportClientFactory: Successfully created connection to /10.211.55.101:38850 after 28 ms (0 ms spent in bootstraps)
+18/03/04 13:05:23 INFO util.Utils: Fetching spark://10.211.55.101:38850/jars/spark-scala-maven-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar to /tmp/spark-12b209e7-113e-42e8-881a-9f1ad628c2a9/userFiles-c3001c65-02b0-4e34-9a67-4306b977c541/fetchFileTemp2515620430715913521.tmp
+18/03/04 13:05:24 INFO executor.Executor: Adding file:/tmp/spark-12b209e7-113e-42e8-881a-9f1ad628c2a9/userFiles-c3001c65-02b0-4e34-9a67-4306b977c541/spark-scala-maven-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar to class loader
+18/03/04 13:05:24 INFO rdd.HadoopRDD: Input split: file:/vagrant/Courses/NASA/text:0+20910
+18/03/04 13:05:24 INFO Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+18/03/04 13:05:24 INFO Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+18/03/04 13:05:24 INFO Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+18/03/04 13:05:24 INFO Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+18/03/04 13:05:24 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+18/03/04 13:05:24 INFO executor.Executor: Finished task 0.0 in stage 0.0 (TID 0). 1745 bytes result sent to driver
+18/03/04 13:05:24 INFO scheduler.DAGScheduler: ShuffleMapStage 0 (map at MainExample.scala:44) finished in 0.875 s
+18/03/04 13:05:24 INFO scheduler.DAGScheduler: looking for newly runnable stages
+18/03/04 13:05:24 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 848 ms on localhost (executor driver) (1/1)
+18/03/04 13:05:24 INFO scheduler.DAGScheduler: running: Set()
+18/03/04 13:05:24 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+18/03/04 13:05:24 INFO scheduler.DAGScheduler: waiting: Set(ResultStage 1)
+18/03/04 13:05:24 INFO scheduler.DAGScheduler: failed: Set()
+18/03/04 13:05:24 INFO scheduler.DAGScheduler: Submitting ResultStage 1 (ShuffledRDD[9] at reduceByKey at MainExample.scala:45), which has no missing parents
+18/03/04 13:05:24 INFO memory.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 3.2 KB, free 366.0 MB)
+18/03/04 13:05:24 INFO memory.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 1978.0 B, free 366.0 MB)
+18/03/04 13:05:24 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.211.55.101:45474 (size: 1978.0 B, free: 366.3 MB)
+18/03/04 13:05:24 INFO spark.SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:996
+18/03/04 13:05:24 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (ShuffledRDD[9] at reduceByKey at MainExample.scala:45)
+18/03/04 13:05:24 INFO scheduler.TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+18/03/04 13:05:24 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1, localhost, executor driver, partition 0, ANY, 5859 bytes)
+18/03/04 13:05:24 INFO executor.Executor: Running task 0.0 in stage 1.0 (TID 1)
+18/03/04 13:05:24 INFO storage.ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+18/03/04 13:05:24 INFO storage.ShuffleBlockFetcherIterator: Started 0 remote fetches in 16 ms
+18/03/04 13:05:24 INFO executor.Executor: Finished task 0.0 in stage 1.0 (TID 1). 6318 bytes result sent to driver
+18/03/04 13:05:24 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 98 ms on localhost (executor driver) (1/1)
+18/03/04 13:05:24 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+18/03/04 13:05:24 INFO scheduler.DAGScheduler: ResultStage 1 (collect at MainExample.scala:46) finished in 0.102 s
+18/03/04 13:05:24 INFO scheduler.DAGScheduler: Job 0 finished: collect at MainExample.scala:46, took 1.377224 s
+(/images/KSC-logosmall.gif,15)
+(/images/NASA-logosmall.gif,11)
+(/images/USA-logosmall.gif,7)
+(/images/MOSAIC-logosmall.gif,7)
+(/images/WORLD-logosmall.gif,6)
+(/images/ksclogo-medium.gif,6)
+(/htbin/cdt_clock.pl,6)
+(/history/apollo/images/apollo-logo1.gif,6)
+(/images/launch-logo.gif,4)
+(/images/ksclogosmall.gif,4)
+(/ksc.html,4)
+(/history/apollo/images/footprint-small.gif,4)
+(/shuttle/technology/images/srb_mod_compare_3-small.gif,3)
+(/shuttle/technology/images/srb_mod_compare_1-small.gif,3)
+(/history/apollo/apollo.html,3)
+(/images/construct.gif,3)
+(/images/shuttle-patch-logo.gif,2)
+(/htbin/cdt_main.pl,2)
+(/software/winvn/bluemarb.gif,2)
+(/history/history.html,2)
+18/03/04 13:05:24 INFO spark.SparkContext: Invoking stop() from shutdown hook
+18/03/04 13:05:24 INFO server.ServerConnector: Stopped Spark@6bffc033{HTTP/1.1}{0.0.0.0:4040}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@a7e2d9d{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@791cbf87{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@319dead1{/api,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@2baa8d82{/,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@523424b5{/static,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@3bde62ff{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@a1217f9{/executors/threadDump,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@4a067c25{/executors/json,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@4fd4cae3{/executors,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@a77614d{/environment/json,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@4b6166aa{/environment,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@b91d8c4{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@7807ac2c{/storage/rdd,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@f19c9d2{/storage/json,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@4089713{/storage,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@62923ee6{/stages/pool/json,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@7f811d00{/stages/pool,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@7cbee484{/stages/stage/json,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@7bb3a9fe{/stages/stage,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@611f8234{/stages/json,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@532a02d9{/stages,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@644c78d4{/jobs/job/json,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@74bdc168{/jobs/job,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@6bab2585{/jobs/json,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@76a82f33{/jobs,null,UNAVAILABLE,@Spark}
+18/03/04 13:05:24 INFO ui.SparkUI: Stopped Spark web UI at http://10.211.55.101:4040
+18/03/04 13:05:24 INFO spark.MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+18/03/04 13:05:24 INFO memory.MemoryStore: MemoryStore cleared
+18/03/04 13:05:24 INFO storage.BlockManager: BlockManager stopped
+18/03/04 13:05:24 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+18/03/04 13:05:24 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+18/03/04 13:05:24 INFO spark.SparkContext: Successfully stopped SparkContext
+18/03/04 13:05:24 INFO util.ShutdownHookManager: Shutdown hook called
+18/03/04 13:05:24 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-12b209e7-113e-42e8-881a-9f1ad628c2a9
