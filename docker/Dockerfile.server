@@ -1,0 +1,14 @@
+FROM alpine-java:base
+MAINTAINER manoj.com
+COPY files/jobserver-1.0-SNAPSHOT-jar-with-dependencies.jar /opt/spring-cloud/lib/
+COPY files/spark-scala-maven-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar /opt/spring-cloud/lib/
+ENV SPRING_APPLICATION_JSON='{"spring": {"cloud": {"config": {"server": \
+    {"git": {"uri": "/var/lib/jobserver", "clone-on-start": true}}}}}}'
+ENTRYPOINT ["/usr/bin/java"]
+CMD ["-XX:+AggressiveOpts -XX:TargetSurvivorRatio=90 -XX:SurvivorRatio=64 -XX:MaxTenuringThreshold=8 \
+       -XX:NewRatio=1 -Dserver.port=${JOBSERVER_PORT}   -Dcom.sun.management.jmxremote=true \
+        -Dcom.sun.management.jmxremote.port=$JMXREMOTE_PORT -Dcom.sun.management.jmxremote.ssl=false \
+        -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.local.only=false \
+         -XX:+UnlockCommercialFeatures -XX:+FlightRecorder  -Dasync=true -Dlogging.path=./logs/  -jar ", "/opt/spring-cloud/lib/jobserver-1.0-SNAPSHOT-jar-with-dependencies.jar "]
+VOLUME /var/lib/jobserver
+EXPOSE 8888
