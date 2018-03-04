@@ -31,6 +31,8 @@ docker volume create --name=spring-boot-jobserver
      
 ### Foe inspecting the jobserver
 docker inspect job-server
+
 docker stop job-server
+
 docker rm job-server
      
